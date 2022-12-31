@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#map {
+  width: auto;
+  height: 100vh;
+}
+
+.Button-add {
+  display: block;
+  z-index: 2;
+  bottom: 10%;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  top: 75vh;
+  left: calc(100vw - 100px);
+  margin: 10px 10px 10px 10px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  color: #FAF8F1;
+  background: #E5BA73;
+  border-top: none;
+  border-left: none;
+  border-color: #FFF;
+  border-radius: 50%;
+  box-shadow: 0px 5px 0px 0px #C58940;
+  transition: all 0.2s;
+}
+
+.Button-add:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 0px 0px #C58940;
+}
+/* Color is from https://colorhunt.co/palette/faf8f1faeab1e5ba73c58940 */
+.Button-pos {
+  display: block;
+  z-index: 2;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  top: 85vh;
+  left: calc(100vw - 100px);
+  margin: 10px 10px 10px 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  color: #FAF8F1;
+  background: #E5BA73;
+  border-top: none;
+  border-left: none;
+  border-color: #FFF;
+  border-radius: 50%;
+  box-shadow: 0px 5px 0px 0px #C58940;
+  transition: all 0.2s;
+}
+
+.Button-pos:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 0px 0px #C58940;
+}
